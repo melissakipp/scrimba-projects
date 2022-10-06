@@ -1,25 +1,25 @@
 import BusinessCard from '../Projects/BusinessCard';
 
-function App() {
+function ScrimbaProjects() {
   return (
     <>
       <h1>Scrimba Projects</h1>
       <ul>
         <li><BusinessCard /></li>
       </ul>
+      <a
+      className="App-link"
+      href="https://scrimba.com/learn/learnreact"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+        Learn React for free
+      </a>
     </>
   );
 }
 
-export default App;
+export default ScrimbaProjects;
 
 
 
-        // <a
-        //   className="App-link"
-        //   href="https://scrimba.com/learn/learnreact"
-        //   target="_blank"
-        //   rel="noopener noreferrer"
-        // >
-        //   Learn React for free
-        // </a>
