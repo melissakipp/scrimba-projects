@@ -1,7 +1,9 @@
 
 import './scss/App.scss';
+
 import Home from './Pages/Home';
 import ScrimbaProjects from './Pages/ScrimbaProjects';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
