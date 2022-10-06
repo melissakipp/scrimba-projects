@@ -6,16 +6,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome
-        </p>
+        <h1>
+          Scrimba Projects
+        </h1>
+        <ol className='project-list'>
+          <li>Digital Business Card</li>
+        </ol>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://scrimba.com/learn/learnreact"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React for free
         </a>
       </header>
     </div>
