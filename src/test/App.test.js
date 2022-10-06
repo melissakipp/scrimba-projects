@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from '../App';
 
-test('renders learn react for free link', () => {
+test('Top heading is projects', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react for free/i);
-  expect(linkElement).toBeInTheDocument();
+  const headingOne = screen.getByText(/scrimbra projects/i);
+  expect(headingOne).toBeInTheDocument();
 });
+
+// How do you look for text that shows up more then once on a page?
