@@ -5,24 +5,86 @@
   background-color: $biz-card-bg;
   color: $biz-card-white;
   display: flex;
-  height: 100vh;
   justify-content: center;
-  margin: auto 0;
-  padding: 0;
+  padding: 2rem 0;
   width: 90vw;
 }
 
 .biz-card {
   background-color: $biz-card-lighter-black;
-  border-radius: 10px 10px 0 0;
-  height: 80%;
+  border-radius: 10px;
   margin: auto 2rem;
   width: 360px;
-
-  img {
+  &--profileImg {
     border-radius: 10px 10px 0 0;
     height: 360px;
     width: 360px;
   }
+}
 
+.biz-card--header {
+  &__name {
+    font-size: 2em;
+  }
+  &__title {
+    color: $biz-card-job-title;
+  }
+  &__name, &__title, &__website, &__btns {
+    margin: 1rem 0 0 0;
+    text-align: center;
+  }
+  &__btns {
+    display: flex;
+    justify-content: center;
+    a {
+      border-radius: 6px;
+      display: inherit;
+      justify-content: inherit;
+      margin: 1rem;
+      padding: .75rem;
+      width: 115px;
+      text-decoration: none;
+    }
+    .email-btn {
+      background-color: $biz-card-white;
+      color: $biz-card-bg;
+    }
+    .linkedIn-btn {
+      background-color: #5093e2;
+      color: $white;
+    }
+    img {
+      margin: 0 .5rem 0 0;
+      max-width: calc(16px + .25vmin);
+    }
+  }
+}
+
+.biz-card--content {
+  padding: 2rem;
+  &__topics {
+    margin: 1rem 0;
+  }
+  &__text {
+    line-height: 1.5;
+  }
+
+}
+
+
+.card-footer {
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  &--list {
+    display: flex;
+    height: 50px;
+
+    // outline: 2px solid red;
+
+    list-style-type: none;
+    li a img {
+      max-width: calc(16px + 1.25vmin);
+    }
+  }
+  
 }
