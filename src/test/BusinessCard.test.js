@@ -3,6 +3,6 @@ import BusinessCard from '../Projects/BusinessCard';
 
 test('test', () => {
   render(<BusinessCard />);
-  const linkElement = screen.getByText(/digital business card/i);
+  const linkElement = screen.getByText(/Melissa Kipp/i);
   expect(linkElement).toBeInTheDocument();
 });

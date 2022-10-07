@@ -1,10 +1,11 @@
+import '../scss/ScrimbaProjects.scss';
 import BusinessCard from '../Projects/BusinessCard';
 
 function ScrimbaProjects() {
   return (
-    <>
+    <div className='scrimba-main-content'>
       <h1>Scrimba Projects</h1>
-      <ul>
+      <ul className='scrimba-list'>
         <li><BusinessCard /></li>
       </ul>
       <a
@@ -15,7 +16,7 @@ function ScrimbaProjects() {
       >
         Learn React for free
       </a>
-    </>
+    </div>
   );
 }
 

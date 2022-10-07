@@ -1,0 +1,28 @@
+@import './variables';
+
+.biz-main-content {
+  align-items: center;
+  background-color: $biz-card-bg;
+  color: $biz-card-white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto 0;
+  padding: 0;
+  width: 90vw;
+}
+
+.biz-card {
+  background-color: $biz-card-lighter-black;
+  border-radius: 10px 10px 0 0;
+  height: 80%;
+  margin: auto 2rem;
+  width: 360px;
+
+  img {
+    border-radius: 10px 10px 0 0;
+    height: 360px;
+    width: 360px;
+  }
+
+}
